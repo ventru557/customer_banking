@@ -31,19 +31,19 @@ This challenge is about creating a customer banking system which allows users to
 
 ### Customer Banking (Where all the work comes together and we call the MAIN function)
 
-1. We import the create_cd_account and create_savings_account functions from the respective files.
+1. We import the `create_cd_account` and `create_savings_account` functions from the respective files.
 
 2. In the main function:
 
     * Prompts the user for savings account details (balance, interest rate, and months)
 
-    * Calls create_savings_account with user's input.
+    * Calls `create_savings_account` with user's input.
 
     * Print the interest earned and updated balance for Savings Account.
 
     * Prompts the user for CD account details (balance, interest rate, and months)
 
-    * Calls create_cd_account with user's inputs.
+    * Calls `create_cd_account` with user's inputs.
 
     * Prints the interest earned and updated balance for CD Account.
 
